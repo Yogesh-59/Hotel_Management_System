@@ -12,7 +12,7 @@
         <module name="eureka-server" />
         <module name="gateway" />
       </profile>
-      <profile name="Annotation profile for payment_service" enabled="true">
+      <profile name="Annotation profile for staff-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -20,8 +20,8 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar" />
         </processorPath>
         <module name="staff-service" />
-        <module name="guest-service" />
         <module name="rate-service" />
+        <module name="guest-service" />
         <module name="payment-gateway" />
         <module name="reservation-service" />
       </profile>
